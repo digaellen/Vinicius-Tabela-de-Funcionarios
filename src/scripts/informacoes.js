@@ -29,7 +29,7 @@ const recebeparametro = function(objeto) {
        <td>${objeto.name}</td>
        <td>${objeto.idade}</td>
        <td>${objeto.cpf}</td>
-       <td><button id="btn-excluit">X</button></td>
+       <td><button id="btn-excluir">X</button></td>
     </tr>
     `
     return putontable
@@ -42,7 +42,7 @@ const sendeInformacoes = () => {
         bodytable.insertAdjacentHTML("beforeend", recebeparametro(el))
     })
 
-    functionaddd(document.querySelectorAll('#btn-excluit'))
+    functionaddd(document.querySelectorAll('#btn-excluir'))
 }
 
 function functionaddd(btns) {

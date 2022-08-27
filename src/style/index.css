@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f2f2f2;
+    color: whitesmoke;
+    
+}
+
+.cabecalho {
+    background: #348e91;
+    padding: .81em;
+    border: solid #3e838c;
+}
+
+.titulo {
+    font-size: 2rem;
+}
+
+.cadastro {
+    margin: 0.80em auto;
+    width: 100%;
+}
+
+.novo-funcionario {
+    background: #ff9915;
+    font-size: 15px;
+    color: white;
+    border: solid 0px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0.80em; 
+
+}
+
+.tabela {
+    margin: auto;
+    width: 80%;
+}
+
+.informacoes {
+    padding: 1.3em;
+    background-color: #1c5052;
+    border: solid 0px;
+    height: 5px;
+    font-size: 15px;
+}
+
+#btn-excluir {
+    background: red;
+    color: white;
+    font-size: 13px;
+    padding: 0px 7px;
+    border: solid 0px;
+    border-radius: 100px;
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    margin: 1em;
+    font-size: 13px;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 72, 123);
+}
+
+tbody {
+    margin: 0 auto;
+    padding: 1em;
+    background: #98acab;
+    color: white;
+}
+
+
+thead tr th:nth-of-type(4) {
+    width: 33.3%;
+}
+
+
+
+/* formulario */
+
+form {
+    width: 60%;
+    font-size: 17px;
+    margin: 0 auto;
+    color: white;
+}
+
+form input {
+    display: block;
+    margin: 0 0 1em 0;
+    padding: .47em;
+    width: 100%;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
+    color: white;
+}
+
+form input:focus {
+    color: white;
+}
+
+label {
+    text-align: left;
+}
+
+#enviarform {
+    display: block;
+    margin: 1em 0 0 0;
+    padding: .47em;
+    width: 40%;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+#model {
+    background: rgba(80, 76, 76, 0.815);
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    color: white;
+    width: 100%;
+}
+
+#flex-d {
+    background-color: #1c5052;
+    max-width: 80%;
+    width: 30em;
+    height: 30em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 30, 35, 0.8);
+}
+
+h2 {
+    font-size: 40px;
+    margin: 20px;
+}

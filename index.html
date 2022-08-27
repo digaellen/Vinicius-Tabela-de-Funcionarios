@@ -1,41 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style/index.css" />
+    <title>Cadastro de Funcionários</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="shotcur icon" href="src/img/icon.png">
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/index.css">
-    <title>Cadastro Funcionario</title>
-</head>
-
-<body>
-
-    <nav>
-        <h1>Cadastro de Funcionario</h1>
+  <body>
+    <nav class="cabecalho">
+      <h1 class="titulo">Cadastro de Funcionários</h1>
     </nav>
-
-    <div class="elemento-creat-table1" id="elemnto-table1">
-        <div class="elemento-creat-table2" id="elemnto-table2">
-            <button id="evento">ADD FUNCIONARIO</button>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nome</th>
-                        <th>idade</th>
-                        <th>CPF</th>
-                        <th>Excluir Funcionario</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    <p>Desenvolvido por <a href="https://www.linkedin.com/in/vinicius-rocha-a1425b243/">Vinicius G. Rocha</a></p>
-    <script src="./scripts/index.js"></script>
-    <script src="./scripts/modal.js"></script>
-    <script src="./scripts/informaçoes.js"></script>
-</body>
-
+      <div class="cadastro">
+        <button class="novo-funcionario" id="evento">Novo Funcionário</button>
+        <table class="tabela">
+          <thead>
+            <tr>
+              <th class="informacoes">Nome</th>
+              <th class="informacoes">Idade</th>
+              <th class="informacoes">CPF</th>
+              <th class="informacoes">Excluir</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    <script src="src/scripts/index.js"></script>
+    <script src="src/scripts/modal.js"></script>
+    <script src="src/scripts/informacoes.js"></script>
+    <footer class="rodape">Desenvolvido por <a href="https://www.linkedin.com/in/vinicius-rocha-a1425b243/">Vinicius G. Rocha</a>
+      </footer>
+  </body>
 </html>
